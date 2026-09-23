@@ -1,0 +1,17 @@
+def Empcal(): 
+    Name = input("Enter name: ")
+    Age = int(input("Enter age: "))
+    Sal = float(input("Enter salary: "))
+    
+    
+    HRA = Sal * 0.20 
+    
+    
+    print("\n--- Employee Details ---")
+    print(f"Name: {Name}")
+    print(f"Age: {Age}")
+    print(f"Salary: ${Sal:,.2f}")
+    print(f"HRA (20%): ${HRA:,.2f}")
+
+harry 
+Empcal()
